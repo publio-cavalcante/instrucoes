@@ -1,0 +1,28 @@
+1 - Configuração Banco
+
+Na pasta Banco de Dados Contém 2 Backups eles deverão ser restaurados antes de rodar a api
+
+Os nomes deverão se manter os mesmos dos backups:
+
+adonai_9999
+adonai_2
+
+2 - Configuração do Back-End
+
+Na pasta do projeto acessando o pacote connection na classe AdonaiConnections deverá ser configurado a senha do banco de dados
+
+caso não utilize o docker-compose, se utilizar o mesmo não precisará ser feito
+
+3 - O Front-End (caso seja via download e não github poderá pular esta etapa)
+
+Após baixar o projeto via github, instale a versão do node 14 a 15 da problema, ainda não sei o porque
+
+instale as dependencias via npm install
+
+Na pasta raiz do projeto há uma pasta componentes_personalizados copie a pasta vue-sidebar-menu para a pasta node_modules
+terá que alterar a já existente nela
+
+apóes estas etapas o projeto rodará sem problemas
+
+
+
